@@ -1,8 +1,8 @@
-#**Tesi Mattia Polticchia**
+**Tesi Mattia Polticchia**
 ---
 ---
 
-#Bug e problemi
+Bug e problemi
 ---
 Abbiamo dei problemi di: 
 `[Tensorflow 2.0] AttributeError: Tensor.op is meaningless when eager execution is enabled`
@@ -14,7 +14,7 @@ Possibile step, creare una funzione che crei dei grafici coi dati dei vari train
 
 A quanto pare c'è una montagna di roba nelle commit di github che va accuratamente osservata.
 
-#Modifiche nel tempo
+Modifiche nel tempo
 ---
 * Cambiata la policy dopo una selezione fatta seguendo un articolo su un sito 
 specialistico. Ritrovare il sito ( controllare telegram )
@@ -22,7 +22,7 @@ specialistico. Ritrovare il sito ( controllare telegram )
 * Rimossi alcuni parametri nella creazione del DQNAgent perché superflui in quanto già presenti nella dichiarazione dalla classe. Ha senso metterli solo  se si vogliono diversi valori rispetto agli standard.
 
 ---
-##Rete neurale
+Rete neurale
 * Aggiunto il valore di dropout per evitare l'overfitting. Questo ha effettivamente portato a dei miglioramenti in tempo e in quantità di punti.
 >_Paper di 30 pagine da leggere - Inserire il titolo_
 * Modificata la struttura dei nodi e la dichiarazione dell'attivatore \\
@@ -36,7 +36,7 @@ to : \\
 
 
 ---
-##Link vari
+Link vari
 * Creare un piccolo file log delle modifiche della gym-tetris che sta subendo sporadiche modifiche nel tempo ma non vengono segnalate quasi da nessuna parte.
 >tetris_env i return. \\
 >il dict che era nelle info è stato commentato -> spiegare perché
