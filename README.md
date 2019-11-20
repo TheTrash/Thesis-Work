@@ -39,6 +39,6 @@ to :
 Link vari
 * Creare un piccolo file log delle modifiche della gym-tetris che sta subendo sporadiche modifiche nel tempo ma non vengono segnalate quasi da nessuna parte.
 >tetris_env i return.
->il dict che era nelle info è stato commentato -> spiegare perché
+il dict che era nelle info è stato commentato -> spiegare perché
 
 * Aggiungere da qualche parte tutta la miriade di link che sono su telegram in modo da averli pronti per la bibliografia e le note
