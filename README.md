@@ -31,14 +31,14 @@ from :
 agent.add(Dense(16))
 agent.add(Activation('relu'))
 ```
-to : \\
+to : 
  `model.add(Dense(16, activation='relu'))`
 
 
 ---
 Link vari
 * Creare un piccolo file log delle modifiche della gym-tetris che sta subendo sporadiche modifiche nel tempo ma non vengono segnalate quasi da nessuna parte.
->tetris_env i return. \\
+>tetris_env i return.
 >il dict che era nelle info è stato commentato -> spiegare perché
 
 * Aggiungere da qualche parte tutta la miriade di link che sono su telegram in modo da averli pronti per la bibliografia e le note
