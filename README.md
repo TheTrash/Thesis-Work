@@ -25,7 +25,7 @@ specialistico. Ritrovare il sito ( controllare telegram )
 Rete neurale
 * Aggiunto il valore di dropout per evitare l'overfitting. Questo ha effettivamente portato a dei miglioramenti in tempo e in quantità di punti.
 >_Paper di 30 pagine da leggere - Inserire il titolo_
-* Modificata la struttura dei nodi e la dichiarazione dell'attivatore \\
+* Modificata la struttura dei nodi e la dichiarazione dell'attivatore
 from :
 ```
 agent.add(Dense(16))
@@ -39,7 +39,7 @@ to :
 Link vari
 * Creare un piccolo file log delle modifiche della gym-tetris che sta subendo sporadiche modifiche nel tempo ma non vengono segnalate quasi da nessuna parte.
 
-> tetris_env i return
-> il dict che era nelle info è stato commentato -> spiegare perché
+> Controllare i tetris_env i return.
+> Il dict che era nelle info è stato commentato -> spiegare perché
 
 * Aggiungere da qualche parte tutta la miriade di link che sono su telegram in modo da averli pronti per la bibliografia e le note
