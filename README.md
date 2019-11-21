@@ -1,6 +1,5 @@
 **Tesi Mattia Polticchia**
 ---
----
 
 Bug e problemi
 ---
