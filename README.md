@@ -1,5 +1,23 @@
 **Tesi Mattia Polticchia**
 ---
+---
+
+Presentazione
+---
+Git fatto per tenere conto della mia tesi.
+L'argomento della tesi è la creazione di un'intelligenza artificiale che tramite il reinforcement learning impari a giocare a tetris.
+Il punto focale è riuscire a farle imparare a giocare dandole delle limitate informazioni sull'ambiente.
+L'ambiente utilizzato è sviluppato tramite OpenAI e si chiama gym-tetris
+a cui sono state applicate alcune modifiche per aumentare la compatibilità con l'AI. 
+L'AI è stata implementata in Keras-rl libreria sviluppata tramite Keras contentente i principali algoritmi di apprendimento per RL.
+
+I dati che vengono passati all'AI sono:
+* current piece
+*number of lines
+*score
+*next piece
+*board height
+
 
 Bug e problemi
 ---
