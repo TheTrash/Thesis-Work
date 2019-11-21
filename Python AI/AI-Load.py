@@ -31,7 +31,6 @@ model.add(Dense(num_actions, activation='linear'))
 print(model.summary())
 
 
-#policy = LinearAnnealedPolicy(EpsGreedyQPolicy(), attr='eps', value_max=1., value_min=.1,value_test=.05,nb_steps=100000)
 policy = GreedyQPolicy()
 memory= SequentialMemory(limit=50000, window_length = 1)
 
