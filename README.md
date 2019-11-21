@@ -13,10 +13,10 @@ L'AI è stata implementata in Keras-rl libreria sviluppata tramite Keras content
 
 I dati che vengono passati all'AI sono:
 * current piece
-*number of lines
-*score
-*next piece
-*board height
+* number of lines
+* score
+* next piece
+* board height
 
 
 Bug e problemi
