@@ -13,4 +13,4 @@ Dueling DQN is another variant that uses the classic decomposition of the Q valu
 
 Note that this agent is not compatible with multiple discrete spaces (for example, choose 0 or 1 for each of n buttons), that is, its output is always of the shape (nb_samples, nb_actions). The easiest way to use this agent with multiple discrete spaces would be to detail all possible combinations of actions (in the same example with n=3, this would mean having the action as 000, 001, 010, etc).
 
-All the credits to yujia21 that commit that doc update [here](https://github.com/keras-rl/keras-rl/pull/331/commits/bcfd6a3a73d28cbb30acf43fc19d1f038ca3a5b6#)
+All the credits to yujia21 that committed this documentation update [here](https://github.com/keras-rl/keras-rl/pull/331/commits/bcfd6a3a73d28cbb30acf43fc19d1f038ca3a5b6#)

@@ -29,7 +29,7 @@ Possibile step, creare una funzione che crei dei grafici coi dati dei vari train
 
 ---
 
-A quanto pare c'è una montagna di roba nelle commit di github che va accuratamente osservata.
+> A quanto pare c'è una montagna di roba nelle pull e nelle issue di github che va accuratamente osservata.
 
 Modifiche nel tempo
 ---
@@ -43,12 +43,14 @@ Rete neurale
 * Aggiunto il valore di dropout per evitare l'overfitting. Questo ha effettivamente portato a dei miglioramenti in tempo e in quantità di punti.
 >_Paper di 30 pagine da leggere - Inserire il titolo_
 * Modificata la struttura dei nodi e la dichiarazione dell'attivatore
+
 from :
 ```
 agent.add(Dense(16))
 agent.add(Activation('relu'))
 ```
 to : 
+
  `model.add(Dense(16, activation='relu'))`
 
 
