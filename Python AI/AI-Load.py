@@ -5,9 +5,9 @@ from nes_py.wrappers import JoypadSpace
 import gym_tetris
 from gym_tetris.actions import MOVEMENT, SIMPLE_MOVEMENT
 
-from keras.models import Sequential
-from keras.layers import Dense, Activation, Flatten, Dropout
-from keras.optimizers import Adam
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Activation, Flatten, Dropout
+from tensorflow.keras.optimizers import Adam
 
 from rl.agents.dqn import DQNAgent
 from rl.policy import EpsGreedyQPolicy, LinearAnnealedPolicy, BoltzmannQPolicy, GreedyQPolicy
