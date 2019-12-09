@@ -11,7 +11,19 @@ L'ambiente utilizzato è sviluppato tramite OpenAI e si chiama gym-tetris
 a cui sono state applicate alcune modifiche per aumentare la compatibilità con l'AI. 
 L'AI è stata implementata in Keras-rl libreria sviluppata tramite Keras contentente i principali algoritmi di apprendimento per RL.
 
-I dati che vengono passati all'AI sono:
+I dati che vengono passati all'Agente dopo ogni step sono:
+### *observation / state*
+Semplificazione delle righe della "mappa"
+
+### *reward*
+numerical reward given after some valuable actions. Like rows. 
+
+
+### *done*
+Bool value that represent if the play is finished or not
+
+### *Info*
+Dict contenente : 
 * current piece
 * number of lines
 * score
