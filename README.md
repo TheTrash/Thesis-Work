@@ -23,12 +23,15 @@ numerical reward given after some valuable actions. Like rows.
 Bool value that represent if the play is finished or not
 
 ### *Info*
-Dict contenente : 
-* current piece
-* number of lines
-* score
-* next piece
-* board height
+Key |	Type |	Description
+----|--------|-------------
+`current_piece`   | `str` | pezzo corrente come stringa
+`number_of_lines` | `int` |	numero delle linee fatte
+`score`           | `int` |	punteggio corrente
+`next_piece`      | `str` |	prossimo pezzo
+`statistics` *    | `dict`|	statistica dei pezzi
+
+\* _statistic_ fare riferimento al file [changes.md](https://github.com/TheTrash/Thesis-Work/blob/master/env/changes.md)
 
 
 Bug e problemi
@@ -54,6 +57,10 @@ specialistico.
 
 * Si è deciso di passare ad una rete neurale così formata: //inserire immagine.
 Perché probabilmente alla rete viene passata anche l'attuale disposzione dei tetrimini e quindi è più probabile che l'elaborazione migliori notevolmente. 
+
+* È stata aggiunta parecchia documentazione proveniente da vari link e alcuna scritta da me in modo da avere del materiale da poter utilizzare e studiare.
+
+*
 
 ---
 Rete neurale
