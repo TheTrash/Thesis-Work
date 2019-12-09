@@ -31,8 +31,7 @@ Key |	Type |	Description
 `next_piece`      | `str` |	prossimo pezzo
 `statistics` *    | `dict`|	statistica dei pezzi
 
-\* _statistic_ fare riferimento al file [changes.md](https://github.com/TheTrash/Thesis-Work/blob/master/env/changes.md)
-
+\* fare riferimento al file [changes.md](https://github.com/TheTrash/Thesis-Work/blob/master/env/changes.md)
 
 Bug e problemi
 ---
@@ -46,7 +45,7 @@ Una possibile soluzione è questo `train_interval=4` messo nella creazione dell'
 Si verifica che l'agente con dei nodi Conv2D ( _Convoluzionali a 2 dimensioni_ ) aggiunge inspiegabilmete un layer e la rete non riconosce l'input shape.
 
 Aggiunta:
-> A quanto pare c'è una montagna di roba nelle pull e nelle issue di github che va consultata.
+> Consultare le [issues](https://github.com/wau/keras-rl/issues]) e le [pull](https://github.com/keras-rl/keras-rl/pulls) per avere aiuto nella soluzione dei problemi.
 
 Modifiche nel tempo
 ---
@@ -60,10 +59,8 @@ Perché probabilmente alla rete viene passata anche l'attuale disposzione dei te
 
 * È stata aggiunta parecchia documentazione proveniente da vari link e alcuna scritta da me in modo da avere del materiale da poter utilizzare e studiare.
 
-*
-
----
 Rete neurale
+---
 * Aggiunto il valore di dropout per evitare l'overfitting. Questo ha effettivamente portato a dei miglioramenti in tempo e in quantità di punti.
 I nodi sono stati attualmente omessi per il cambio dell'architettura della rete. Verranno riaggiunti appena il problema sarà risolto.
 
