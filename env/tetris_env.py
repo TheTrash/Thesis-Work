@@ -112,7 +112,8 @@ class TetrisEnv(NESEnv):
             return _PIECE_ORIENTATION_TABLE[self.ram[0x0042]]
         except IndexError:
             #return None
-            return 0
+            #return 0
+            return 'None'
 
     @property
     def _number_of_lines(self):
@@ -148,8 +149,9 @@ class TetrisEnv(NESEnv):
         try:
             return _PIECE_ORIENTATION_TABLE[self.ram[0x00BF]]
         except IndexError:
-            #return None
-            return 0
+	        #return None
+            #return 0
+            return 'None'
 
     @property
     def _statistics(self):

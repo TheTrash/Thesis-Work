@@ -23,13 +23,17 @@ num_actions = env.action_space.n
 #this can be the output range 0-6 for the move
 print("Num actions: ", num_actions)
 model = Sequential()
-model.add(Flatten(input_shape=(1,) + env.observation_space.shape))
-model.add(Dense(32, activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(64, activation='relu'))
-model.add(Dropout(0.5))
-model.add(Dense(512, activation='relu'))
-model.add(Dense(num_actions, activation='linear'))
+
+model.add(Convolution2D(32, (4, 4), strides=(4, 4),padding='valid', input_shape= input_shape, data_format = "channels_last"))
+model.add(Activation('relu'))
+model.add(Convolution2D(64, (4, 4), strides=(2, 2)))
+model.add(Activation('relu'))
+model.add(Convolution2D(64, (3, 3), strides=(1, 1)))
+model.add(Flatten())
+model.add(Dense(512))
+model.add(Activation('relu'))
+model.add(Dense(nb_actions))
+model.add(Activation('linear'))
 print(model.summary())
 
 

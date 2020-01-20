@@ -1,0 +1,2 @@
+attualmente il progetto non funziona eprché train on batch 
+crea un array di shape (1,1,240,256,3) quando dovrebbe essere (1,240,256,3)
