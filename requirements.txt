@@ -1,7 +1,3 @@
-utils
-tensorflow==2.0.0-beta1
-numpy==1.16.4
-keras-rl2
-gym-tetris
-nes-py
-
+stable-baselines==2.9
+tensorflow-gpu==1.13.1
+gym_tetris
