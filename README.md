@@ -2,6 +2,9 @@
 ---
 ---
 
+È stato deciso di abbandonare la librearia keras-rl perché causava parecchi problemi nello sviluppo del progetto.
+Attualmente si è passati a Stable-Baseline.
+
 Presentazione
 ---
 Git fatto per il versioning dei file della tesi.
@@ -36,9 +39,6 @@ Key |	Type |	Description
 Bug e problemi
 ---
 ## Rivisitazione progettuale:
-È stato deciso di abbandonare la librearia keras-rl perché causava parecchi problemi nello sviluppo del progetto.
-Attualmente si è passati a Stable-Baseline.
-
 L'unico problema si ha con l'uso di tensorboard che appesantisce di molto l'esecuzione.
 Per ora si stanno facendo i learn senza utilizzarlo. I dati principali vengono salvati su un file di testo ogni 100k di step.
 
