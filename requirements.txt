@@ -1,3 +1,3 @@
 stable-baselines==2.9
-tensorflow-gpu==1.13.1
+tensorflow==1.13.1
 gym_tetris
