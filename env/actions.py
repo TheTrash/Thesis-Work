@@ -32,3 +32,10 @@ TRAIN_MOVEMENT = [
     ['right'],
     ['left'],
 ]
+
+TRAIN_MOVEMENT_NODOWN = [
+    ['A'],
+    ['B'],
+    ['right'],
+    ['left'],
+]
