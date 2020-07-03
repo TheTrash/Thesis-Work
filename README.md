@@ -17,4 +17,4 @@ Nella cartella Python AI il file DQN.py carica il modello per creare dei render 
 
 In docs ci sono cenni di teoria, pubblicazioni scientifiche usate per studiare e altro materiale vario trovato durante la ricerca.
 
-Nella cartella grafici è contenuto lo script per la creazione dei grafici e i relativi dati.
+Nella cartella assets sono contenute le immagini utilizzate nella tesi, al suo interno in grafici sono presenti i log da cui sono stati creati i grafici e il relativo script con cui sono stati fatti.
