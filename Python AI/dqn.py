@@ -3,6 +3,7 @@ import warnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.simplefilter(action='ignore', category=Warning)
 
+#Import custom function for evaluation and video recording
 from evaluate_model import evaluate
 from record_model import record
 
