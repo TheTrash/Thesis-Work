@@ -22,6 +22,7 @@ Nella cartella assets sono contenute le immagini utilizzate nella tesi, al suo i
 Citazione :
 ---
 Se vuoi citare il mio progetto:
+'''
 @misc{Polticchia2020,
   author = {Mattia Polticchia},
   title = {Thesis Work},
@@ -30,3 +31,4 @@ Se vuoi citare il mio progetto:
   journal = {GitHub repository},
   howpublished = {\url{https://github.com/TheTrash/Thesis-Work}},
 }
+'''
