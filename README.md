@@ -18,3 +18,15 @@ Nella cartella Python AI il file DQN.py carica il modello per creare dei render 
 In docs ci sono cenni di teoria, pubblicazioni scientifiche usate per studiare e altro materiale vario trovato durante la ricerca.
 
 Nella cartella assets sono contenute le immagini utilizzate nella tesi, al suo interno in grafici sono presenti i log da cui sono stati creati i grafici e il relativo script con cui sono stati fatti.
+
+Citazione :
+---
+Se vuoi citare il mio progetto:
+@misc{Polticchia2020,
+  author = {Mattia Polticchia},
+  title = {Thesis Work},
+  year = {2020},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/TheTrash/Thesis-Work}},
+}
